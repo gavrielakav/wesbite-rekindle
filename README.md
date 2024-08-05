@@ -7,7 +7,7 @@ Proyek ini adalah contoh implementasi chatbot yang diintegrasikan ke dalam websi
 ## Struktur Proyek
 
 - `frontend/` - Berisi file HTML, CSS, dan JavaScript untuk antarmuka pengguna.
-- `api/` - Folder yang berisi serverless functions (misalnya, chatbot backend) yang dihosting di Vercel.
+- `api/` - Folder yang berisi serverless functions yang dihosting di Vercel.
 
 ## Prerequisites
 
@@ -83,7 +83,7 @@ Proyek ini adalah contoh implementasi chatbot yang diintegrasikan ke dalam websi
 
 ## Kontak
 
-Jika kamu memiliki pertanyaan atau butuh bantuan, silakan hubungi [nama@email.com](mailto:nama@email.com) atau buka isu di repository ini.
+Jika kamu memiliki pertanyaan atau butuh bantuan, silakan hubungi [Kavatsmara Fayra Gavriel Anaphaty](mailto:kavatsmara@gmail.com) atau buka isu di repository ini.
 
 ## Lisensi
 
