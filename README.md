@@ -83,7 +83,7 @@ Proyek ini adalah contoh implementasi chatbot yang diintegrasikan ke dalam websi
 
 ## Kontak
 
-Jika kamu memiliki pertanyaan atau butuh bantuan, silakan hubungi [Kavatsmara Fayra Gavriel Anaphaty](mailto:kavatsmara@gmail.com) atau buka isu di repository ini.
+Jika kamu memiliki pertanyaan atau butuh bantuan, silakan hubungi [Kavatsmara@gmail.com](mailto:kavatsmara@gmail.com) atau buka isu di repository ini.
 
 ## Lisensi
 
