@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Chatbot</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
+    <!-- Favicons -->
+    <link href="/assets/img/rekindle/Logo1.png" rel="icon">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header" class="header fixed-top">
+        <div class="branding d-flex align-items-center">
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <a href="/index.html" class="logo d-flex align-items-center">
+                    <img src="/assets/img/rekindle/Logo2.png" alt="Logo" width="45" height="50">
+                    <h1 class="sitename">rekindle</h1><span>.</span>
+                </a>
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="/index.html">Beranda</a></li>
+                        <li><a href="/index.html#about">Tentang</a></li>
+                        <li class="dropdown">
+                            <a href="/blog.html"><span>Gangguan Mental</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="/blog-details.html">Gangguan Kecemasan</a></li>
+                                <li><a href="/blog-details-2.html">Gangguan Depresi</a></li>
+                                <li><a href="/blog-details-3.html">Gangguan Stres</a></li>
+                                <li><a href="/blog-details-4.html">Gangguan Stres Pasca Trauma</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#hero" class="active">Chatbot!</a></li>
+                        <li><a href="/index.html#faq">Bantuan</a></li>
+                        <li><a href="/index.html#call">Panggilan Aksi</a></li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="chatbox">
+        <!-- Header for the chatbox -->
+        <div class="chatbox__header">
+            <div class="chatbox__image--header">
+                <img src="/static/images/pandora.png" alt="Pandora Image">
+            </div>
+            <div class="chatbox__content--header">
+                <h4 class="chatbox__heading--header"><b>Chatbot Kesehatan Mental</b></h4>
+                <p class="chatbox__description--header"><b>Halo, nama saya Pandora. Ada yang bisa saya bantu?</b></p>
+            </div>
+        </div>
+
+        <!-- Messages area -->
+        <div class="chatbox__messages"></div>
+
+        <!-- Footer with input and send button -->
+        <div class="chatbox__footer">
+            <input type="text" placeholder="Tuliskan pesan...">
+            <button class="chatbox__send--footer send__button">Kirim</button>
+        </div>
+    </div>
+    <script src="/assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
